@@ -1,3 +1,6 @@
+<script>
+    export let hideModal;
+</script>
 <ul>
     <li>model 1</li>
     <li>model 2</li>
