@@ -1,8 +1,8 @@
 <script>
     export let hideModal;
 </script>
-<ul>
+<ol>
     <li>model 1</li>
     <li>model 2</li>
     <li>model 3</li>
-</ul>
+</ol>

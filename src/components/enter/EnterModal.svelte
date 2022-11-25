@@ -9,11 +9,21 @@
 </script>
 <div class="enter-modal-holder" bind:this={modal}>
 <div class="enter-modal-dialog">
-    <img src="./img/logo.svg" alt="Logo" width="100" height="100" on:click={hideModal} on:keyup={()=>{}}>
+    <div class="logo-enter">
+        <img src="./img/logo.svg" alt="Logo" width="100" height="100" on:click={hideModal} on:keyup={()=>{}}>
+        <p>atomtech</p>
+    </div>
     <ModelList {hideModal}/>
 </div>
 </div>
 <style>
+    .logo-enter{
+        display:flex;
+        border-bottom: 1px dotted gray;
+        align-items: center;
+        font-family: Montserrat;
+        font-size: 2.5rem;
+    }
     .enter-modal-dialog{
         width: 640px;
         height: 480px;
